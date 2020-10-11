@@ -3,10 +3,9 @@ Input file: thearena.map
 Output file: thearena.bsp
 
 ---- LoadMapFile ----
-*** WARNING 05: No info_player_start entity in level
           530 faces
            89 brushes
-           26 entities
+           27 entities
             5 unique texnames
            15 texinfo
 
@@ -35,8 +34,29 @@ Processing hull 0...
           260 vis clusters
           576 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (-464 -64 0), no filling performed.
-Leak file written to thearena.pts
+          138 outleafs
+---- MergeAll ----
+          165 mergefaces
+---- SolidBSP ----
+          103 split nodes
+           54 solid leafs
+           50 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          333 leaffaces
+          247 nodefaces
+---- Portalize ----
+           50 vis leafs
+           50 vis clusters
+          106 vis portals
+---- Tjunc ----
+          269 world edges
+          990 edge points
+          315 edges added by tjunctions
+            0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
@@ -44,20 +64,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote thearena.bsp
-          218 planes             4360
-          819 vertexes           9828
-          454 nodes             10896
-           14 texinfo             560
-          684 faces             13680
+          208 planes             4160
+          397 vertexes           4764
+          103 nodes              2472
+           12 texinfo             480
+          247 faces              4940
           810 clipnodes          6480
-          261 leafs              7308
-          733 marksurfaces       1466
-         2732 surfedges         10928
-         1756 edges              7024
+           51 leafs              1428
+          333 marksurfaces        666
+         1324 surfedges          5296
+          663 edges              2652
             5 textures         109024
               lightdata             0
               visdata               0
-              entdata            1630
+              entdata            1704
 
-0.367 seconds elapsed
-Peak memory usage: 4927730 (4.7M)
+0.398 seconds elapsed
+Peak memory usage: 4078114 (3.9M)
