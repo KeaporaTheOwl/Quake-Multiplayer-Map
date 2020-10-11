@@ -937,3 +937,9 @@
 "classname" "item_health"
 "origin" "304 16 0"
 }
+// entity 26
+{
+"classname" "info_player_start"
+"origin" "176 -256 24"
+"angle" "210"
+}
