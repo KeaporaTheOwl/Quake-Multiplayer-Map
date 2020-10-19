@@ -3,15 +3,15 @@ running with 8 threads
 testlevel = 4
 LoadBSPFile: 'thearena.bsp'
 BSP is version 29
-    50 leafs
-   106 portals
+   102 leafs
+   228 portals
 Calculating Base Vis:
 0....1....2....3....4....5....6....7....8....9....
 Calculating Full Vis:
 0....1....2....3....4....5....6....7....8....9....
-average leafs visible: 26
+average leafs visible: 62
 c_noclip: 0
-c_chains: 3736
-visdatasize:368  compressed from 350
+c_chains: 29357
+visdatasize:1334  compressed from 1326
 Writing thearena.bsp as BSP version 29
   0.1 seconds elapsed
