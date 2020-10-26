@@ -3,59 +3,60 @@ Input file: thearena.map
 Output file: thearena.bsp
 
 ---- LoadMapFile ----
-         1095 faces
-          182 brushes
+         3502 faces
+          587 brushes
            31 entities
-            5 unique texnames
-           33 texinfo
+           16 unique texnames
+           90 texinfo
 
 Opened WAD: D:/Quake-Multiplayer-Map/wads/prototype_1_2.wad
+Opened WAD: D:/Quake-Multiplayer-Map/wads/rogue.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          182 brushes
-          123 planes
+          587 brushes
+          175 planes
 ---- CSGFaces ----
-         1095 brushfaces
-          814 csgfaces
-          480 mergedfaces
+         3502 brushfaces
+         1610 csgfaces
+          820 mergedfaces
 ---- SolidBSP ----
-          969 split nodes
-          422 solid leafs
-          548 empty leafs
+         1041 split nodes
+          459 solid leafs
+          583 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         2213 leaffaces
-         2101 nodefaces
+         2930 leaffaces
+         2796 nodefaces
 ---- Portalize ----
-          548 vis leafs
-          548 vis clusters
-         1266 vis portals
+          583 vis leafs
+          583 vis clusters
+         1327 vis portals
 ---- FillOutside ----
-          354 outleafs
+          375 outleafs
 ---- MergeAll ----
-          277 mergefaces
+          604 mergefaces
 ---- SolidBSP ----
-          219 split nodes
-          118 solid leafs
-          102 empty leafs
+          259 split nodes
+          150 solid leafs
+          110 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          911 leaffaces
-          730 nodefaces
+         1363 leaffaces
+         1222 nodefaces
 ---- Portalize ----
-          102 vis leafs
-          102 vis clusters
-          228 vis portals
+          110 vis leafs
+          110 vis clusters
+          270 vis portals
 ---- Tjunc ----
-          602 world edges
-         2638 edge points
-          768 edges added by tjunctions
+          948 world edges
+         4200 edge points
+         1100 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -65,20 +66,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote thearena.bsp
-          305 planes             6100
-         1086 vertexes          13032
-          219 nodes              5256
-           22 texinfo             880
-          730 faces             14600
-         1859 clipnodes         14872
-          103 leafs              2884
-          911 marksurfaces       1822
-         3681 surfedges         14724
-         1856 edges              7424
-            5 textures         109024
+          331 planes             6620
+         1763 vertexes          21156
+          259 nodes              6216
+           40 texinfo            1600
+         1222 faces             24440
+         1852 clipnodes         14816
+          111 leafs              3108
+         1363 marksurfaces       2726
+         6018 surfedges         24072
+         3026 edges             12104
+           16 textures         136708
               lightdata             0
               visdata               0
-              entdata            1897
+              entdata            1937
 
-0.368 seconds elapsed
-Peak memory usage: 8587918 (8.2M)
+0.651 seconds elapsed
+Peak memory usage: 14316346 (13.7M)
