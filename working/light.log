@@ -1,34 +1,33 @@
 ---- light / ericw-tools v0.18.1 ----
-extra 4x4 sampling enabled
 Raytracing backend: Embree
 running with 8 threads
-LoadBSPFile: 'thearena.bsp'
+LoadBSPFile: 'testlevel.bsp'
 BSP is version 29
 --- LoadEntities ---
-138 entities read, 107 are lights.
+2 entities read, 0 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	2796 solid faces
+	139 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 107 initial lights
-SetupLights: 107 after surface lights
-SetupLights: 107 after jittering
+SetupLights: 0 initial lights
+SetupLights: 0 after surface lights
+SetupLights: 0 after jittering
 --- EstimateLightVisibility ---
-0....1....2....3....4....5....6....7....8....9....
-Final count: 107 lights 0 suns in use.
+
+Final count: 0 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 101524
+lightdatasize: 0
 0 switchable light styles (32 max)
-Writing thearena.bsp as BSP version 29
-0.718 seconds elapsed
+Writing testlevel.bsp as BSP version 29
+0.125 seconds elapsed
 
 stats:
-2.384236 lights tested, 1.447654 hits per sample point
+0.000000 lights tested, 0.000000 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps

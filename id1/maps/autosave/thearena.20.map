@@ -1403,4 +1403,46 @@
 {
 "classname" "weapon_rocketlauncher"
 "origin" "16 0 144"
+"angle" "270"
+}
+// entity 3
+{
+"classname" "item_armor1"
+"origin" "-160 -32 144"
+}
+// entity 4
+{
+"classname" "item_rockets"
+"origin" "-176 16 144"
+}
+// entity 5
+{
+"classname" "weapon_supershotgun"
+"origin" "-80 -160 0"
+}
+// entity 6
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-64 160 0"
+}
+// entity 7
+{
+"classname" "item_armor1"
+"origin" "-224 20 0"
+"angle" "180"
+}
+// entity 8
+{
+"classname" "item_shells"
+"origin" "-240 -36 0"
+}
+// entity 9
+{
+"classname" "item_armor1"
+"origin" "96 -32 0"
+}
+// entity 10
+{
+"classname" "item_rockets"
+"origin" "80 0 0"
 }

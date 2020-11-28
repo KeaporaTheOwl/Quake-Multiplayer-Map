@@ -1397,7 +1397,7 @@
 // entity 1
 {
 "classname" "info_player_start"
-"origin" "-784 -80 24"
+"origin" "-784 -160 24"
 }
 // entity 2
 {
@@ -1444,5 +1444,41 @@
 // entity 10
 {
 "classname" "item_rockets"
-"origin" "80 0 0"
+"origin" "80 16 0"
+}
+// entity 11
+{
+"classname" "weapon_supernailgun"
+"origin" "-96 784 144"
+}
+// entity 12
+{
+"classname" "item_spikes"
+"origin" "-48 768 144"
+}
+// entity 13
+{
+"classname" "item_health"
+"origin" "-48 -960 0"
+}
+// entity 14
+{
+"classname" "info_player_deathmatch"
+"origin" "-1008 -944 104"
+}
+// entity 15
+{
+"classname" "info_player_deathmatch"
+"origin" "880 944 104"
+"angle" "270"
+}
+// entity 16
+{
+"classname" "item_health"
+"origin" "-112 928 0"
+}
+// entity 17
+{
+"classname" "info_player_deathmatch"
+"origin" "-848 16 24"
 }

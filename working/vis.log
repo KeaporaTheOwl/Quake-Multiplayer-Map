@@ -1,7 +1,17 @@
 ---- vis / ericw-tools v0.18.1 ----
 running with 8 threads
 testlevel = 4
-LoadBSPFile: 'thearena.bsp'
+LoadBSPFile: 'testlevel.bsp'
 BSP is version 29
-LoadPortals: couldn't read thearena.prt
-No vising performed.
+    36 leafs
+   114 portals
+Calculating Base Vis:
+0....1....2....3....4....5....6....7....8....9....
+Calculating Full Vis:
+0....1....2....3....4....5....6....7....8....9....
+average leafs visible: 34
+c_noclip: 0
+c_chains: 8782
+visdatasize:180  compressed from 180
+Writing testlevel.bsp as BSP version 29
+  0.1 seconds elapsed
